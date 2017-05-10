@@ -1,0 +1,208 @@
+﻿/* Move down content because we have a fixed navbar that is 50px tall */
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    zoom: 85%;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="tel"],
+input[type="select"] {
+    max-width: 280px;
+}
+
+.inline-block {
+    display: inline-block;
+}
+/*default page styles*/
+#indexbuttons {
+    display: flex;
+}
+
+#tagline {
+    width: 100%;
+}
+
+.padtopbot0 {
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+
+.padtopbot10 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.padbot5 {
+    padding-bottom: 5px;
+}
+
+.padleft5 {
+    padding-left: 5px;
+}
+
+.padtop5 {
+    padding-top: 5px;
+}
+
+.padbot10 {
+    padding-bottom: 10px;
+}
+
+.padleft10 {
+    padding-left: 10px;
+}
+
+.padleft20 {
+    padding-left: 10px;
+}
+
+.padright20 {
+    padding-left: 20px;
+}
+
+.padtop10 {
+    padding-top: 10px;
+}
+
+.padbot15 {
+    padding-bottom: 5px;
+}
+
+.padtop15 {
+    padding-top: 5px;
+}
+
+.padbot20 {
+    padding-bottom: 10px;
+}
+
+.padtop20 {
+    padding-top: 10px;
+}
+
+.vertalign-middle {
+    vertical-align: middle;
+}
+
+.marginright10 {
+    margin-right: 10px;
+}
+
+.justify {
+    -webkit-text-justify: auto;
+    -moz-text-justify: auto;
+    -o-text-justify: auto;
+    text-justify: auto;
+}
+
+.float-left {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: 900;
+}
+
+.clipleft15 {
+    clip: rect(0, 35px, 0, 0);
+}
+
+.pictureframe {
+    border: gray medium solid;
+    height: 200px;
+    width: 400px;
+}
+
+.ruler {
+    width: 100%;
+    border: lightgrey solid 1px;
+    display: inline-block;
+    text-align: center;
+}
+
+.rulerwrapper {
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.previewiframewrapper {
+    position: absolute;
+    height: 220px;
+    width: 300px;
+    
+}
+
+/*.previewiframe {
+    margin-top: 7px;
+    margin-left: 15px;
+    position: relative;
+    height: 1400px;
+    width: 2800px;
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(0.25);
+    -webkit-transform: scale(0.25);
+    transform: scale(1);
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+  
+}*/
+
+.previewiframe {
+    margin-top: 7px;
+    margin-left: 15px;
+    position: relative;
+    height: 530px;
+    width: 1130px;
+    -ms-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(0.25);
+    -webkit-transform: scale(0.25);
+    /* transform: scale(1); */
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+/* Responsive: Portrait tablets and up */
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        margin-top: 20px;
+    }
+
+    .body-content {
+        padding: 0;
+    }
+}
